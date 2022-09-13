@@ -19,7 +19,7 @@ int main(void)
 		{
 			m = m + j;
 		}
-		l =j + k;
+		l = j + k;
 		j = k;
 		k = l;
 	}
