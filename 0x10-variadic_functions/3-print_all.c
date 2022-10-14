@@ -28,8 +28,8 @@ void print_all(const char * const format, ...)
 			case 'c':
 				printf("%c", va_arg(valist, int)), k = 1;
 				break;
-			case'i':
-				printf("%f", va_arg(valist, int)), k = 1;
+			case 'i':
+				printf("%d", va_arg(valist, int)), k = 1;
 				break;
 			case 'f':
 				printf("%f", va_arg(valist, double)), k = 1;
