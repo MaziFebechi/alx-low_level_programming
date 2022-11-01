@@ -74,7 +74,7 @@ void print_class(unsigned char *e_ident)
 }
 
 /**
- * print_data - Prints the data of an RLF header.
+ * print_data - Prints the data of an ELF header.
  * @e_ident: A pointer to an array containing the ELF class.
  */
 void print_data(unsigned char *e_ident)
@@ -87,7 +87,8 @@ void print_data(unsigned char *e_ident)
 			printf("none\n");
 			break;
 		case ELFDATA2LSB:
-			printf("2's complement, little endian\n");break;
+			printf("2's complement, little endian\n");
+			break;
 		case ELFDATA2MSB:
 			printf("2's complement, big endian\n");
 			break;
