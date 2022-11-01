@@ -56,7 +56,7 @@ You are not allowed to use more than one while loop in your code
 If s does not match any of the 5 expected operators (+, -, *, /, %), return NULL
 You are only allowed to declare these two variables in this function:
    
-   3-main.c
+    3-main.c
 This file should contain your main function only.
 You are not allowed to code any other function than main in this file
 You are not allowed to directly call op_add, op_sub, op_mul, op_div or op_mod from the main function
